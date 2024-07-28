@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-box{
+    width: 100%;
+    height: 100vh;
+    background: url(images/teahub.io-programming-wallpaper-222514\ \(1\).jpg) right no-repeat;
+}
+
+.slide-bar{
+    width: 280px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logo{
+    width: 100%;
+    height: 85px;
+    text-align: center;
+
+}
+.logo a {
+    text-decoration: none;
+}
+.title{
+    position: relative;
+    top: 25px;
+    color: #fff;
+}
+
+.itemes{
+    position: relative;
+    width: 100%;
+    height: 70%;
+    top: 35px;
+}
+.itemes ul{
+    list-style-type: none;
+}
+.itemes span{
+    position: relative;
+    font-size: 30px;
+    top: 5px;
+}
+
+.itemes li{
+    width: 90%;
+    height: 60px;
+    margin: 20px auto;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.itemes li:hover{
+    width: 90%;
+    height: 60px;
+    margin: 20px auto;
+    font-size: 30px;
+    margin-left: 20px;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+
+}
+.itemes a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.social-media{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.social-media i{
+    margin: auto 5px;
+    color: #fff;
+}
+.social-media i:hover{
+    margin: auto 5px;
+    color: darkcyan;
+}
+
+.social-media a {
+    text-decoration: none;
+}
